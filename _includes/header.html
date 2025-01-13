@@ -34,18 +34,37 @@
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
           <li style="display: flex; align-items: center; justify-content: flex-start; height: 100%; position: relative;">
-            <a href="{{ site.baseurl }}/downloads/eduardo_albertos_resume_en.pdf " target="_blank" 
-              style="display: flex; align-items: center; text-decoration: none;" download>
+
+            <a href="{{ site.baseurl }}/downloads/eduardo_albertos_resume{% if page.lang == 'es' %}_es{% else %}_en{% endif %}.pdf"
+              target="_blank"
+              style="display: flex; align-items: center; text-decoration: none;"
+              download>
+
               <span class="username" style="display: flex; align-items: center;">
                 <span style="display: inline-block; margin-right: 8px; width: 16px; height: 20px;">
                   {% include download.svg %}
                 </span>
-                {{ site.data.locales.download_en| escape }}
+                {%- if page.lang == 'en' -%}
+                  {{ site.data.locales.download_en| escape }}
+                {%- else-%}
+                  {{ site.data.locales.download_es| escape }}
+                {%- endif -%}
               </span>
             </a>
           </li>
         </ul>
       </div>
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+
+          {%- if page.lang == 'en' -%}
+            <li><a href="/es/">Español</a></li>
+          {%- else-%}
+            <li><a href="/">English</a>
+          </li>
+          {%- endif -%}
+        </ul>
+      </div> 
     </div>
   </div>
 </header>

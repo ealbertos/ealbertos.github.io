@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+lang: en
 ---
 
 An experienced back-end web developer with a passion for learning and writing clean code.  I love working on software that people use and I like to own my systems end-to-end: implementation, debugging, operating in production and working at scale. 

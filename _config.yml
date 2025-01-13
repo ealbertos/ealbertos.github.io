@@ -3,6 +3,7 @@ email: albertos.eduardo@gmail.com
 description: Eduardo Albertos Software Developer
 baseurl: ""
 url: ""
+lang: "en"
 github_username: ealbertos
 linkedin_username: ealbertos
 theme: minima
