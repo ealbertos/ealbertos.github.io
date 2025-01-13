@@ -4,7 +4,7 @@ description: Eduardo Albertos Software Developer
 baseurl: ""
 url: ""
 github_username: ealbertos
-
-theme: jekyll-theme-slate 
+linkedin_username: ealbertos
+theme: minima
 plugins:
   - jekyll-feed

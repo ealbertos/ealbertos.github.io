@@ -1,0 +1,51 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+  </div>
+  <div class="wrapper">  
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {%- if site.linkedin_username -%}
+            <li>
+              <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" target='_blank'>
+                <svg class="svg-icon">
+                  <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+                </svg> 
+                <span class="username">{{ site.linkedin_username| escape }}</span>
+              </a>
+            </li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          <li style="display: flex; align-items: center; justify-content: flex-start; height: 100%; position: relative;">
+            <a href="{{ site.baseurl }}/assets/downloads/eduardo_albertos_resume_en.pdf " target="_blank" 
+              style="display: flex; align-items: center; text-decoration: none;">
+              <span class="username" style="display: flex; align-items: center;">
+                <span style="display: inline-block; margin-right: 8px; width: 16px; height: 20px;">
+                  {% include download.svg %}
+                </span>
+                {{ site.data.locales.download_en| escape }}
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
