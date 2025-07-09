@@ -30,7 +30,7 @@ _June 2014 - March 2020_
 
 I managed relationships with clients and third-party providers while overseeing the architecture, design, development, deployment, and operation of Ruby on Rails services. I was responsible for preparing all technical proposals related to software engineering, as well as designing, executing, utilizing, and maintaining software engineering applications. Additionally, I assigned tasks to software engineering personnel, evaluated their performance, and managed their development to ensure the delivery of high-quality results.
 
-### Software Engineer
+### Software Engineer - CoDN
 _September 2010 - June 2014_
 
 I created web pages and web-based enterprise systems from start to finish, developing new features using HTML, CSS, JavaScript, Ruby on Rails (RoR), and CakePHP to enhance the user experience. I implemented multiple backend functionalities with Sidekiq, ActiveJob, and ActiveMailer, and integrated CSS templates into the RoR and CakePHP asset pipelines. Additionally, I maintained the in-house CMS and managed the integration between the back-end and front-end of web pages to ensure seamless functionality and performance.
