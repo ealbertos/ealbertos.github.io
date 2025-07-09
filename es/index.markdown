@@ -31,7 +31,7 @@ También trabajo con APIs de MLS para gestionar datos de propiedades y utilizo A
 _Junio 2014 - marzo 2020_ 
 
 Gestioné las relaciones con clientes y proveedores externos mientras supervisaba la arquitectura, diseño, desarrollo, implementación y operación de servicios en Ruby on Rails. Fui responsable de preparar todas las propuestas técnicas relacionadas con la ingeniería de software, así como de diseñar, ejecutar, utilizar y mantener aplicaciones de ingeniería de software. Además, asigné tareas al personal de ingeniería de software, evalué su desempeño y gestioné su desarrollo para garantizar la entrega de resultados de alta calidad. 
-### Ingeniero de Software 
+### Ingeniero de Software - CoDN
 _Septiembre 2010 - junio 2014_ 
 
 Creé páginas web y sistemas empresariales basados en la web de principio a fin, desarrollando nuevas funcionalidades con HTML, CSS, JavaScript, Ruby on Rails (RoR) y CakePHP para mejorar la experiencia del usuario. Implementé múltiples funcionalidades de backend utilizando Sidekiq, ActiveJob y ActiveMailer, además de integrar plantillas CSS en los pipelines de activos de RoR y CakePHP. También mantuve el sistema de gestión de contenido (CMS) interno y gestioné la integración entre el backend y el frontend de las páginas web para garantizar un funcionamiento y rendimiento impecables.
